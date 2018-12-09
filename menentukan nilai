@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Nilai Kelulusan mahasiswa" << endl << endl <<endl;
+    float nilaimhs;
+    cout << "Masukan Nilai Anda  : " << endl;
+    cin >> nilaimhs;
+   if (nilaimhs>=7){cout << "Selamat anda lulus"; } else {cout << "Maaf anda tidak lulus"; }
+
+
+
+    cin.get();
+    return 0;
+}
